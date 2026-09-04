@@ -2,7 +2,7 @@ name: Check pull request builds
 
 on:
   pull_request:
-    branches: [main]
+    branches: [staging]
 
 jobs:
   build:
